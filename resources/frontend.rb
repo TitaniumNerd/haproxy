@@ -4,7 +4,7 @@ property :maxconn, Integer, default: 2000
 property :default_backend, String
 property :use_backend, Array
 property :acl, Array
-preoprty :tcp_request, Array
+property :tcp_request, Array
 property :option, Array
 property :stats, Hash, default: {}
 property :extra_options, Hash
